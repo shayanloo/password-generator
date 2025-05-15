@@ -1,6 +1,6 @@
 # 🔐 Password Generator | تولیدکننده رمز عبور
 
-![Password Generator Screenshot](screenshots/demo.png)
+![Password Generator Screenshot](https://github.com/shayanloo/password-generator/blob/main/banner/b01.png)
 
 ---
 
