@@ -72,7 +72,7 @@ const PasswordGenerator: React.FC = () => {
             className="w-20 h-20 object-cover rounded-lg"
           />
           <div className="flex-1">
-            <h3 className="text-gray-800 font-semibold mb-1">حسابداری، پرتفوی، قیمت ارز</h3>
+            <h3 className="text-gray-800 font-semibold mb-1">حسابداری، پرتفوی و قیمت ارز</h3>
             <p className="text-gray-600 text-sm leading-relaxed">دانلود رایگان اپلیکیشن پولاکو برای موبایل!</p>
           </div>
           <a href="https://shayanloo.ir/poolakou/" target="_blank" rel="noopener noreferrer"
