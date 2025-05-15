@@ -49,6 +49,7 @@ const PasswordControls: React.FC<PasswordControlsProps> = ({
       <div className="space-y-3">
         <h3 className="text-sm font-medium text-gray-700 mb-2">انواع کاراکتر</h3>
 
+
         <div className="flex items-center">
           <input
             id="includeLowercase"
