@@ -8,8 +8,7 @@ type PasswordControlsProps = {
 
 
 const PasswordControls: React.FC<PasswordControlsProps> = ({
-  options,
-  onChange
+  options, onChange
 }) => {
   const handleLengthChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const newLength = parseInt(e.target.value);
