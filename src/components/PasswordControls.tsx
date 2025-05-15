@@ -6,9 +6,10 @@ type PasswordControlsProps = {
   onChange: (options: PasswordOptions) => void;
 };
 
-const PasswordControls: React.FC<PasswordControlsProps> = ({ 
-  options, 
-  onChange 
+
+const PasswordControls: React.FC<PasswordControlsProps> = ({
+  options,
+  onChange
 }) => {
   const handleLengthChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const newLength = parseInt(e.target.value);
@@ -48,7 +49,7 @@ const PasswordControls: React.FC<PasswordControlsProps> = ({
 
       <div className="space-y-3">
         <h3 className="text-sm font-medium text-gray-700 mb-2">انواع کاراکتر</h3>
-        
+
         <div className="flex items-center">
           <input
             id="includeLowercase"
@@ -61,7 +62,7 @@ const PasswordControls: React.FC<PasswordControlsProps> = ({
             شامل حروف کوچک (a-z)
           </label>
         </div>
-        
+
         <div className="flex items-center">
           <input
             id="includeUppercase"
@@ -74,7 +75,7 @@ const PasswordControls: React.FC<PasswordControlsProps> = ({
             شامل حروف بزرگ (A-Z)
           </label>
         </div>
-        
+
         <div className="flex items-center">
           <input
             id="includeNumbers"
@@ -87,7 +88,7 @@ const PasswordControls: React.FC<PasswordControlsProps> = ({
             شامل اعداد (۰-۹)
           </label>
         </div>
-        
+
         <div className="flex items-center">
           <input
             id="includeSymbols"
@@ -100,7 +101,7 @@ const PasswordControls: React.FC<PasswordControlsProps> = ({
             شامل نمادها (!@#$%^&*)
           </label>
         </div>
-        
+
         <div className="flex items-center">
           <input
             id="excludeAmbiguous"
