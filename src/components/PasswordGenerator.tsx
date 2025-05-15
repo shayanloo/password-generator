@@ -68,14 +68,14 @@ const PasswordGenerator: React.FC = () => {
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
           <img
             src="https://shayanloo.ir/wp-content/uploads/elementor/thumbs/icon-512-xa-qwpewol976g2i6unf8lmb5lwjug6vhpwl9t7f8yu1o.png"
-            alt="امنیت رمز عبور"
+            alt="Poolakoo Logo"
             className="w-20 h-20 object-cover rounded-lg"
           />
           <div className="flex-1">
             <h3 className="text-gray-800 font-semibold mb-1">حسابداری، پرتفوی، قیمت ارز</h3>
             <p className="text-gray-600 text-sm leading-relaxed">دانلود رایگان اپلیکیشن پولاکو برای موبایل!</p>
           </div>
-          <a href="https://shayanloo.ir/poolakou" target="_blank" rel="noopener noreferrer"
+          <a href="https://shayanloo.ir/poolakou/" target="_blank" rel="noopener noreferrer"
             className="bg-blue-500 text-white px-4 py-2 rounded-md text-sm hover:bg-blue-600 transition-colors flex items-center gap-1 whitespace-nowrap self-start sm:self-center">
             مشاهده
             <ExternalLink size={14} className="inline" />
