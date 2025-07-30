@@ -37,4 +37,4 @@ This is a **simple and practical password generator** that lets you create secur
 
 1. پروژه را کلون یا دانلود کنید:
    ```bash
-   git clone https://github.com/your-username/password-generator.git
+   git clone https://github.com/shayanloo/password-generator.git
